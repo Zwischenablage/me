@@ -1,0 +1,235 @@
+# Page settings
+
+baseurl = "http://danielendr.es/about/"
+languageCode = "en-us"
+title = "Daniel Endres - Resume"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Hugo Responsive Resume/CV Theme for Developers"
+    author = "Pavel Kanyshev"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "daen-2.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Daniel Endres"
+        tagline = "Software Architect - Android Automotive"
+        avatar = "me.jpg"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: contact@zwischenablage.org"
+        title = "contact@zwischenablage.org"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//danielendr.es/about"
+        title = "danielendr.es/about"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/daniel-endres"
+        title = "linkedin.com/in/daniel-endres"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/zwischenablage"
+        title = "github.com/zwischenablage"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/zwischenablage"
+        title = "@zwischenablage"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "MSc in Computer Science - Dipl.-Inf. (FH)"
+        college = "Augsburg University of Applied Sciences"
+        dates = "2002 - 2007"
+
+        [[params.education.list]]
+        degree = "M.A. in Interactive Media Systems"
+        college = "Augsburg University of Applied Sciences"
+        dates = "2007 - 2008"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "German"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Professional"
+
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Photography"
+
+        [[params.interests.list]]
+        interest = "Guitar"
+
+        [[params.interests.list]]
+        interest = "Cooking"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "Hi there, <br><br> my name is **Daniel** and I'm a **Software Architect** at **Audi AG**. <br>I've graduated at the University of Applied Science Augsburg with a degree in **Computer Science** and a **Master of Arts**. While my professional career started as a Linux Operating Systems developer, my passion for developing IVI (In-Vehicle Infotainment Systems) Systems drove me towards spending the last **10+ years** in the **automotive industry**."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Software Architect - IVI Platform / Android Automotive"
+        dates = "2019 March - Present"
+        company = "Audi AG, Ingolstadt"
+        details = "Modern vehicles are equipped with quite a bunch of hard- and software. Although the Infotainment itself is just one part of the puzzle, it's the core of that system and the part where I'm contributing to, as a Software Architect defining the overall platform. The **platform** part is also the interesting and challenging factor, since again not just one single piece, but the complete puzzle needs to be understood and considered."
+        [[params.jobs.list]]
+        position = "Senior Project Manager - Acoustics"
+        dates = "2016 - 2019 Feb"
+        company = "Nuance Communications GmbH, Ulm"
+        details = "At **Nuance** I was working as a **Project Manager** in the **Acoustics Speech Enhancement** department. With the main focus being the automotive industry I was in close contact with a variety of different OEMs and First Tier suppliers. For those I was the main contact person in contractual, organizational and **technical** topics. Those technical discussions covered different aspects from requirement analysis, to technical software architecture/overal system design, integration topics and algorithmic details. To me the possibility to get in touch with almost every player of the automotive industry is what's so special about this role at Nuance."
+        [[params.jobs.list]]
+        position = "Technical Project Lead / Software Architect - Multimedia"
+        dates = "2012 - 2015"
+        company = "e.solutions GmbH, Ingolstadt"
+        details = "From 2012 and onwards, I had the role of a **Technical Project Lead & Software Architect**. During this period I was responsible for a coherent integration of smarphone projection technologies (like **Apple CarPlay** and **Android Auto**) into the existing infotainment system experience. The integration of  BluRay-Disc support and video streaming (front to back passengers and vice versa) are further domains I was in charge of during that period."
+
+        [[params.jobs.list]]
+        position = "Senior Software Engineer - Multimedia"
+        dates = "2010 - 2012"
+        company = "e.solutions GmbH, Ingolstadt"
+        details = "I've joined **e.solutions** in 2010 as a **Software Engineer**. There I've contributed to the development of the **In-Vehcile Infotainment (IVI) System** for the Audi AG in particular and the whole Volkswagen Group as such. I was responsible for the development of multimedia applications for playback of various audio & video formats located on mass storage devices."
+
+        [[params.jobs.list]]
+        position = "Linux OS Software Developer"
+        dates = "2008 - 2010"
+        company = "Igel GmbH, Augsburg"
+        details = "After university I’ve started as a **Linux Operating Systems Developer** responsible for kernel- & network Driver development, extensions of the X11-Server, as well as the extension of the access-control management."
+
+    # Projects section
+    [params.projects]
+        enable = false
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
+        [[params.projects.list]]
+        title = "Hugrid"
+        url = "https://github.com/aerohub/hugrid"
+        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+
+        [[params.projects.list]]
+        title = "Simple FAQ Theme for Hugo"
+        url = "https://github.com/aerohub/hugo-faq-theme"
+        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+
+        [[params.projects.list]]
+        title = "Hugo Identity"
+        url = "https://github.com/aerohub/hugo-identity-theme"
+        tagline = "Little profile/card-style template for Hugo."
+
+        [[params.projects.list]]
+        title = "Orbit"
+        url = "https://github.com/aerohub/hugo-orbit-theme"
+        tagline = "Hugo Resume/CV Theme for Developers."
+
+        [[params.projects.list]]
+        title = "Me"
+        url = "https://github.com/aerohub/hugo-me-theme"
+        tagline = "A simple responsive Hugo theme for personal site."
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Android Automotive"
+        level = "100%"
+
+        [[params.skills.list]]
+        skill = "Project Management"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Requirements Management"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Linux"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "C/C++"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Ruby on Rails"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "HTML5 & CSS"
+        level = "60%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    #
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = ""
