@@ -14,8 +14,8 @@ disable404 = true
 [params]
 
 # Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Pavel Kanyshev"
+    description = "Resume of Daniel Endres, Software Architect focused on automotive platforms"
+    author = "Daniel Endres"
 
 # Theme styles
 
@@ -31,7 +31,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Daniel Endres"
-        tagline = "Software Architect - Android Automotive"
+        tagline = "Software Architect | Android Automotive"
         avatar = "me.jpg"
 
     # Contact section
@@ -120,7 +120,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "Hi there, <br><br> my name is **Daniel** and I'm a **Software Architect** at **Audi AG**. <br>I've graduated at the University of Applied Science Augsburg with a degree in **Computer Science** and a **Master of Arts**. While my professional career started as a Linux Operating Systems developer, my passion for developing IVI (In-Vehicle Infotainment Systems) Systems drove me towards spending the last **10+ years** in the **automotive industry**."
+        summary = "I design and deliver infotainment platforms for global automotive brands, bringing more than a decade of experience across embedded systems, cloud services, and partner integrations. My foundation in computer science and interactive media allows me to bridge human-centered design with scalable system architecture."
 
     # Experiences section
     [params.experiences]
@@ -129,32 +129,37 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
+        position = "Partner Technology Manager - Gemini in Cars"
+        dates = "Jan 2022 - Present"
+        company = "Google"
+        details = "Lead technical engagements with global OEM partners to bring **Gemini** experiences into production vehicles. Align product direction with vehicle platform constraints, define infotainment integration strategies end-to-end, and drive cross-functional execution spanning Android Automotive, cloud services, and safety requirements."
+        [[params.jobs.list]]
         position = "Software Architect - IVI Platform / Android Automotive"
-        dates = "2019 March - Present"
+        dates = "Mar 2019 - Dec 2022"
         company = "Audi AG, Ingolstadt"
-        details = "Modern vehicles are equipped with quite a bunch of hard- and software. Although the Infotainment itself is just one part of the puzzle, it's the core of that system and the part where I'm contributing to, as a Software Architect defining the overall platform. The **platform** part is also the interesting and challenging factor, since again not just one single piece, but the complete puzzle needs to be understood and considered."
+        details = "Owned the architecture for the next-generation **IVI platform** built on Android Automotive. Provided system blueprints, governance, and tooling that enabled cross-brand reuse within the Volkswagen Group. Partnered closely with design, product, and supplier teams to deliver high-performance multimedia, navigation, and connectivity experiences."
         [[params.jobs.list]]
         position = "Senior Project Manager - Acoustics"
-        dates = "2016 - 2019 Feb"
+        dates = "2016 - Feb 2019"
         company = "Nuance Communications GmbH, Ulm"
-        details = "At **Nuance** I was working as a **Project Manager** in the **Acoustics Speech Enhancement** department. With the main focus being the automotive industry I was in close contact with a variety of different OEMs and First Tier suppliers. For those I was the main contact person in contractual, organizational and **technical** topics. Those technical discussions covered different aspects from requirement analysis, to technical software architecture/overal system design, integration topics and algorithmic details. To me the possibility to get in touch with almost every player of the automotive industry is what's so special about this role at Nuance."
+        details = "Led cross-regional programs for **automotive acoustics and speech enhancement**, acting as the primary interface for OEM and Tier 1 partners. Managed contracts, delivery schedules, and escalations while guiding technical decisions on architecture, algorithm integration, and performance validation."
         [[params.jobs.list]]
         position = "Technical Project Lead / Software Architect - Multimedia"
         dates = "2012 - 2015"
         company = "e.solutions GmbH, Ingolstadt"
-        details = "From 2012 and onwards, I had the role of a **Technical Project Lead & Software Architect**. During this period I was responsible for a coherent integration of smarphone projection technologies (like **Apple CarPlay** and **Android Auto**) into the existing infotainment system experience. The integration of  BluRay-Disc support and video streaming (front to back passengers and vice versa) are further domains I was in charge of during that period."
+        details = "Directed the integration of **Apple CarPlay**, **Android Auto**, and in-vehicle streaming services into Audi infotainment products. Defined multimedia system architecture, coordinated supplier deliverables, and established validation processes for Blu-ray Disc playback and passenger video streaming."
 
         [[params.jobs.list]]
         position = "Senior Software Engineer - Multimedia"
         dates = "2010 - 2012"
         company = "e.solutions GmbH, Ingolstadt"
-        details = "I've joined **e.solutions** in 2010 as a **Software Engineer**. There I've contributed to the development of the **In-Vehcile Infotainment (IVI) System** for the Audi AG in particular and the whole Volkswagen Group as such. I was responsible for the development of multimedia applications for playback of various audio & video formats located on mass storage devices."
+        details = "Developed multimedia applications for the **in-vehicle infotainment** platform used across Audi and the wider Volkswagen Group. Delivered playback pipelines for diverse audio and video formats, optimized performance for embedded hardware, and collaborated with UX teams on feature rollouts."
 
         [[params.jobs.list]]
         position = "Linux OS Software Developer"
         dates = "2008 - 2010"
         company = "Igel GmbH, Augsburg"
-        details = "After university I’ve started as a **Linux Operating Systems Developer** responsible for kernel- & network Driver development, extensions of the X11-Server, as well as the extension of the access-control management."
+        details = "Built core components of a custom **Linux operating system** for thin clients, including kernel and network drivers, X11 server extensions, and access-control capabilities. Established tooling that improved release throughput and diagnostic coverage."
 
     # Projects section
     [params.projects]
