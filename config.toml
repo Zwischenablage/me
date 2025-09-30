@@ -131,7 +131,7 @@ disable404 = true
         [[params.jobs.list]]
         position = "Partner Technology Manager - Gemini in Cars"
         dates = "Jan 2022 - Present"
-        company = "Google"
+        company = "Google, Munich"
         details = "Lead technical engagements with global OEM partners to bring **Gemini** experiences into production vehicles. Align product direction with vehicle platform constraints, define infotainment integration strategies end-to-end, and drive cross-functional execution spanning Android Automotive, cloud services, and safety requirements."
         [[params.jobs.list]]
         position = "Software Architect - IVI Platform / Android Automotive"
