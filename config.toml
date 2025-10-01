@@ -120,7 +120,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "I'm the lead Partner Technology Manager at Google, currently focused on bringing Gemini into cars. I embed with automotive partners to turn frontier AI into production-grade experiences, operate calmly in safety-critical ambiguity, and align research and product teams with OEM realities to deliver measurable improvements across global programs."
+        summary = "I'm the lead Partner Technology Manager in the Android Auto team, currently focused on bringing Gemini into cars. I embed with automotive partners to turn frontier AI into production-grade experiences, operate calmly in safety-critical ambiguity, and align research and product teams with OEM realities to deliver measurable improvements across global programs."
 
     # Experiences section
     [params.experiences]
@@ -138,7 +138,7 @@ disable404 = true
 - Curated the Gemini launch toolkit—certification guides, FAQs, help-center material, and communications—and ran weekly readiness forums keeping Engineering, Product, and Business teams on track.
 - Led Gemini/Assistant operational excellence by restoring KPI visibility with an offline scoring tool, mentoring first-line specialists, and documenting triage playbooks now standard across the partner engineering organization.
 - Orchestrated high-profile mobility demos, producing quality dashboards, runbooks, and vehicle setups that showcased Gemini and companion multimodal experiences to executives and external audiences."""
-               [[params.jobs.list]]
+        [[params.jobs.list]]
         position = "Software Architect - IVI Platform / Android Automotive"
         dates = "Mar 2019 - Dec 2022"
         company = "Audi AG, Ingolstadt"
@@ -168,35 +168,18 @@ disable404 = true
 
     # Projects section
     [params.projects]
-        enable = false
-        icon = "fa-archive"
-        title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+        enable = true
+        icon = "fa-bullhorn"
+        title = "Flagship Demos & Launches"
+        intro = "Selected high-stakes showcases delivered for executive stakeholders and global events."
 
         [[params.projects.list]]
-        title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+        title = "IAA Mobility 2025 – Gemini & Astra"
+        tagline = "Owned story, build-up, training, and VIP/C-level delivery for Gemini/Astra showcases at IAA 2025."
 
         [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
-
-        [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
-
-        [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
-
-        [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
+        title = "Gemini C-Level & Board Demos"
+        tagline = "Handled technical prep, scripting, instrumentation, and live execution for executive Gemini demos."
 
     # Skills section
     [params.skills]
@@ -205,32 +188,32 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Forward Deployed Delivery"
+        skill = "Customer-Embedded Delivery Leadership"
         level = "100%"
 
         [[params.skills.list]]
-        skill = "LLM Product Integration"
+        skill = "LLM Deployment & Evaluation"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Android Automotive Platforms"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Full-Stack Prototyping (Python/JS)"
-        level = "85%"
-
-        [[params.skills.list]]
-        skill = "Cloud & Edge Architecture"
-        level = "85%"
-
-        [[params.skills.list]]
-        skill = "Program Leadership"
+        skill = "App/OS Prototyping (Python/Kotlin/Java)"
         level = "90%"
 
         [[params.skills.list]]
-        skill = "Partner Engineering"
+        skill = "Embedded Automotive Platforms (Android Automotive)"
         level = "95%"
+
+        [[params.skills.list]]
+        skill = "Operational Readiness & Launch Governance"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Stakeholder Alignment & Communications"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Playbook & Tooling Development"
+        level = "90%"
 
     # Footer section
 
