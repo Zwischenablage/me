@@ -14,7 +14,7 @@ disable404 = true
 [params]
 
 # Meta
-    description = "Resume of Daniel Endres, Software Architect focused on automotive platforms"
+    description = "Resume of Daniel Endres, PTM lead bringing Gemini into cars"
     author = "Daniel Endres"
 
 # Theme styles
@@ -31,7 +31,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Daniel Endres"
-        tagline = "Software Architect | Android Automotive"
+        tagline = "PTM Lead @Google | Bringing Gemini into cars"
         avatar = "me.jpg"
 
     # Contact section
@@ -47,14 +47,14 @@ disable404 = true
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//danielendr.es/about"
-        title = "danielendr.es/about"
+        url = "https://zwischenablage.github.io/me/"
+        title = "zwischenablage.github.io/me"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/daniel-endres"
-        title = "linkedin.com/in/daniel-endres"
+        url = "https://www.linkedin.com/in/daniel-endres/"
+        title = "linkedin.com/in/daniel-endres/"
 
         [[params.contact.list]]
         class = "github"
@@ -120,7 +120,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "I design and deliver infotainment platforms for global automotive brands, bringing more than a decade of experience across embedded systems, cloud services, and partner integrations. My foundation in computer science and interactive media allows me to bridge human-centered design with scalable system architecture."
+        summary = "I'm the lead Partner Technology Manager at Google, currently focused on bringing Gemini into cars. I embed with automotive partners to turn frontier AI into production-grade experiences, operate calmly in safety-critical ambiguity, and align research and product teams with OEM realities to deliver measurable improvements across global programs."
 
     # Experiences section
     [params.experiences]
@@ -132,8 +132,13 @@ disable404 = true
         position = "Partner Technology Manager - Gemini in Cars"
         dates = "Jan 2022 - Present"
         company = "Google, Munich"
-        details = "Lead technical engagements with global OEM partners to bring **Gemini** experiences into production vehicles. Align product direction with vehicle platform constraints, define infotainment integration strategies end-to-end, and drive cross-functional execution spanning Android Automotive, cloud services, and safety requirements."
-        [[params.jobs.list]]
+        details = """- Steering **Gemini** from functional prototypes toward staged rollouts, coordinating global automotive launch teams under urgent timelines to prepare millions of vehicles for launch.
+- Produced end-to-end sample integrations, technical guides, and quality dashboards across Android Automotive applications to help partners integrate Gemini, monitor quality, and scale deployments.
+- Drove requirement alignment between partner roadmaps and Gemini product, translating field feedback into prioritized updates and enforcing quality and safety gates with leadership stakeholders.
+- Curated the Gemini launch toolkit—certification guides, FAQs, help-center material, and communications—and ran weekly readiness forums keeping Engineering, Product, and Business teams on track.
+- Led Gemini/Assistant operational excellence by restoring KPI visibility with an offline scoring tool, mentoring first-line specialists, and documenting triage playbooks now standard across the partner engineering organization.
+- Orchestrated high-profile mobility demos, producing quality dashboards, runbooks, and vehicle setups that showcased Gemini and companion multimodal experiences to executives and external audiences."""
+               [[params.jobs.list]]
         position = "Software Architect - IVI Platform / Android Automotive"
         dates = "Mar 2019 - Dec 2022"
         company = "Audi AG, Ingolstadt"
@@ -200,32 +205,32 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Android Automotive"
+        skill = "Forward Deployed Delivery"
         level = "100%"
 
         [[params.skills.list]]
-        skill = "Project Management"
+        skill = "LLM Product Integration"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Android Automotive Platforms"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Full-Stack Prototyping (Python/JS)"
+        level = "85%"
+
+        [[params.skills.list]]
+        skill = "Cloud & Edge Architecture"
+        level = "85%"
+
+        [[params.skills.list]]
+        skill = "Program Leadership"
         level = "90%"
 
         [[params.skills.list]]
-        skill = "Requirements Management"
-        level = "90%"
-
-        [[params.skills.list]]
-        skill = "Linux"
-        level = "80%"
-
-        [[params.skills.list]]
-        skill = "C/C++"
-        level = "70%"
-
-        [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "70%"
-
-        [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "60%"
+        skill = "Partner Engineering"
+        level = "95%"
 
     # Footer section
 
